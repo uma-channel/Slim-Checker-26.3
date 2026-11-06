@@ -20,10 +20,10 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 - [@nea-c](https://github.com/nea-c/SlimChecker)
 - [@CIkakan](https://github.com/CIkakan)
 
-## 改良点
+## 改良点 / Improvements
 
 - `profile`の取得に固定のItemDisplayを用いるように変更
 
-## ライセンス
+## ライセンス / LICENSE
 
 See [LICENSE](LICENSE) for details.

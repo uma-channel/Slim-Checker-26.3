@@ -11,7 +11,6 @@ Minecraft JE 26.3
 ## 使用方法 / Usage
 
 ```mcfunction
-## 例 / Example
 execute if function #slim_checker: run say My skin model is 'Slim'
 execute unless function #slim_checker: run say My skin model is 'Wide'
 ```

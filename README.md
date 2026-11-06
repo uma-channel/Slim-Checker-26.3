@@ -25,6 +25,7 @@ Whether to use the Slim model of [Player Display](https://github.com/uma-channel
 ## 改良点 / Improvements
 
 - `profile`の取得に固定のItemDisplayを用いるように変更
+- Changed to use a fixed ItemDisplay to get the `profile`.
 
 ## ライセンス / LICENSE
 

@@ -15,7 +15,7 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 
 [Player Display](https://github.com/uma-channel/Player-Display-26.3) のSlimモデルを使用するかどうか。
 
-Whether or not to use the Slim model of [Player Display](https://github.com/uma-channel/Player-Display-26.3).
+Whether to use the Slim model of [Player Display](https://github.com/uma-channel/Player-Display-26.3).
 
 ## フォーク / Forked from
 

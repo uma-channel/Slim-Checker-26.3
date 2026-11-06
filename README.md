@@ -23,10 +23,3 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 ## ライセンス
 
 See [LICENSE](LICENSE) for details.
-
-
-
-## 更新履歴
-
-* r1
-  * 初版

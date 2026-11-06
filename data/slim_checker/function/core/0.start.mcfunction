@@ -6,8 +6,8 @@ execute if entity @s[scores={slim_checker.is_slim=0..1}] run \
 
 
 
-# バグると困るので実行者の位置でスキンデータ入手
-execute at @s run function slim_checker:core/1.at
+# スキンデータ入手
+function slim_checker:core/1.at
 
 
 

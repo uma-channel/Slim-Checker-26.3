@@ -1,5 +1,4 @@
 
-
 # 先頭の8文字とる
 data modify storage slim_checker _.slim_check.head_str set string storage slim_checker _.slim_check.str 0 8
 # 先頭の4文字消す

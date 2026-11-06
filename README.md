@@ -4,10 +4,6 @@
 
 Minecraft datapack to check if the applied skin is slim.
 
-## 動作確認済み
-
-Minecraft JE 26.3
-
 ## 使用方法 / Usage
 
 ```mcfunction

@@ -1,6 +1,22 @@
 {
-   "pack": {
-      "pack_format": 81,
-      "description": {"translate":"SlimChecker %s","with":[{"text":"r1","color":"yellow"}]}
-   }
+  "pack": {
+    "description": [
+      {
+        "text": "Slim Checker 26.3 [DP]",
+        "color": "red"
+      },
+      {
+        "text": "\nby UMA_ModCreator",
+        "color": "gray"
+      }
+    ],
+    "min_format": [
+      97,
+      0
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  }
 }

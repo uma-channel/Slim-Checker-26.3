@@ -17,9 +17,8 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 
 ## フォーク / Forked from
 
-[@nea-c](https://github.com/nea-c/SlimChecker)
-[@CIkakan](https://github.com/CIkakan)
-
+- [@nea-c](https://github.com/nea-c/SlimChecker)
+- [@CIkakan](https://github.com/CIkakan)
 
 ## ライセンス
 

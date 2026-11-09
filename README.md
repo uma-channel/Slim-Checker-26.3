@@ -1,4 +1,4 @@
-# Slim Checker for 26.3
+# Slim Checker Lite
 
 適応されたスキンがスリムかどうかチェックするライブラリデータパック。
 

@@ -29,8 +29,16 @@ Whether to use the Slim model of [Player Display](https://github.com/uma-channel
 
 ## 改良点 / Improvements
 
-- `profile`の取得に固定のItemDisplayを用いるように変更。/ Changed to use a fixed ItemDisplay to get the `profile`.
-- tick関数を削除。`#slim_checker`に統合。/ Removed the `tick` function. Integrated it into `#slim_checker`.
+- `profile`の取得に固定のItemDisplayを用いるように変更。
+- Changed to use a fixed ItemDisplay to get the `profile`.
+---
+- tick関数を削除。`#slim_checker`に統合。
+- Removed the `tick` function. Integrated it into `#slim_checker`.
+
+## 変更点 / Changes
+
+- 作業用ステージの階層を浅くしてBase64探索処理を軽量化
+- Reduce the depth of the working stage hierarchy to streamline Base64 search operations. (本家r2より)
 
 ## ライセンス / LICENSE
 

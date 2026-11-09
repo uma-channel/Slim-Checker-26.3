@@ -11,6 +11,11 @@ execute if function #slim_checker: run say My skin model is 'Slim'
 execute unless function #slim_checker: run say My skin model is 'Wide'
 ```
 
+## 動作確認済み / Verification status
+
+- Minecraft JE 26.3
+- [Minecraft JE 1.21.10](https://github.com/uma-channel/Slim-Checker-Lite/tree/1.21.x)
+
 ## 活用例 / Examples of use
 
 [Player Display](https://github.com/uma-channel/Player-Display-26.3) のSlimモデルを使用するかどうか。

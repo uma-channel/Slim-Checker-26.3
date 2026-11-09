@@ -1,9 +1,11 @@
 
 
-# 取得済みなら中断
-execute if entity @s[scores={slim_checker.is_slim=0..1}] run \
-    return fail
+tag @s add slim_checked
 
+
+# リセット
+scoreboard players reset @s slim_checker.leave_game
+data remove storage slim_checker _
 
 
 # スキンデータ入手
@@ -25,11 +27,14 @@ execute store result storage slim_checker _.slim_check.length int 1 run data get
 execute unless data storage slim_checker _.slim_check{length:0} run function slim_checker:core/2.loop
 
 
-
-
-# 出力情報をスコアへ記録
+# 出力情報をスコアボードに保存
 execute store result score @s slim_checker.is_slim run data get storage slim_checker _.is_slim 1
 
 
-# リセット
-data remove storage slim_checker _
+# 出力情報をreturnする
+execute if data storage slim_checker _{is_slim:1b} run \
+    return 1
+
+return fail
+
+

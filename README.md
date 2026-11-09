@@ -27,6 +27,9 @@ Whether to use the Slim model of [Player Display](https://github.com/uma-channel
 - `profile`の取得に固定のItemDisplayを用いるように変更
 - Changed to use a fixed ItemDisplay to get the `profile`.
 
+- tick関数を削除。`#slim_checker`に統合。
+- Removed the `tick` function. Integrated it into `#slim_checker`.
+
 ## ライセンス / LICENSE
 
 See [LICENSE](LICENSE) for details.

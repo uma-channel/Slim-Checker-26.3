@@ -37,8 +37,8 @@ Whether to use the Slim model of [Player Display](https://github.com/uma-channel
 
 ## 変更点 / Changes
 
-- 作業用ステージの階層を浅くしてBase64探索処理を軽量化
-- Reduce the depth of the working stage hierarchy to streamline Base64 search operations. (本家r2より)
+- 作業用ステージの階層を浅くしてBase64探索処理を軽量化。(本家r2より)
+- Reduce the depth of the working stage hierarchy to streamline Base64 search operations. (From original r2)
 
 ## ライセンス / LICENSE
 

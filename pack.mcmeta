@@ -1,8 +1,9 @@
 {
   "pack": {
+    "pack_format": 88,
     "description": [
       {
-        "text": "Slim Checker 26.3 [DP]",
+        "text": "Slim Checker 1.21.10 [DP]",
         "color": "red"
       },
       {
@@ -11,12 +12,12 @@
       }
     ],
     "min_format": [
-      97,
+      88,
       0
     ],
     "max_format": [
-      97,
-      1
+      98,
+      0
     ]
   }
 }

@@ -13,8 +13,8 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 
 ## 動作確認済み / Verification status
 
-- Minecraft JE 26.3
-- [Minecraft JE 1.21.10](https://github.com/uma-channel/Slim-Checker-Lite/tree/1.21.x)
+- [Minecraft JE 26.3](https://github.com/uma-channel/Slim-Checker-Lite)
+- Minecraft JE 1.21.10
 
 ## 活用例 / Examples of use
 
@@ -29,8 +29,16 @@ Whether to use the Slim model of [Player Display](https://github.com/uma-channel
 
 ## 改良点 / Improvements
 
-- `profile`の取得に固定のItemDisplayを用いるように変更。/ Changed to use a fixed ItemDisplay to get the `profile`.
-- tick関数を削除。`#slim_checker`に統合。/ Removed the `tick` function. Integrated it into `#slim_checker`.
+- `profile`の取得に固定のItemDisplayを用いるように変更。
+- Changed to use a fixed ItemDisplay to get the `profile`.
+---
+- tick関数を削除。`#slim_checker`に統合。
+- Removed the `tick` function. Integrated it into `#slim_checker`.
+
+## 変更点 / Changes
+
+- 作業用ステージの階層を浅くしてBase64探索処理を軽量化。(本家r2より)
+- Reduce the depth of the working stage hierarchy to streamline Base64 search operations. (From original r2)
 
 ## ライセンス / LICENSE
 

@@ -4,7 +4,7 @@
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "never",
-      "destroy_on_use": false
+      "explodes": false
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": false,
@@ -23,6 +23,5 @@
   "logical_height": 64,
   "min_y": -32,
   "monster_spawn_block_light_limit": 0,
-  "monster_spawn_light_level": 0,
-  "has_ender_dragon_fight": false
+  "monster_spawn_light_level": 0
 }

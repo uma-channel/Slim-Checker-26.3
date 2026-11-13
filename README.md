@@ -14,7 +14,8 @@ execute unless function #slim_checker: run say My skin model is 'Wide'
 ## 動作確認済み / Verification status
 
 - [Minecraft JE 26.3](https://github.com/uma-channel/Slim-Checker-Lite)
-- Minecraft JE 1.21.10
+- Minecraft JE 1.21.11
+- [Minecraft JE 1.21 - 1.21.10](https://github.com/uma-channel/Slim-Checker-Lite/tree/1.21-1.21.10)
 
 ## 活用例 / Examples of use
 

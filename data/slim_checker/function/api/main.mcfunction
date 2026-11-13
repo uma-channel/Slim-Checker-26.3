@@ -1,7 +1,7 @@
 
 
 # 初回取得
-execute as @s[tag=!slim_checked] run return run function slim_checker:core/0.start
+execute unless entity @s[scores={slim_checker.is_slim=0..1}] run return run function slim_checker:core/0.start
 
 
 # リログしてたら再取得

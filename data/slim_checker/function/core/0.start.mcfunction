@@ -1,7 +1,5 @@
 
 
-tag @s add slim_checked
-
 
 # リセット
 scoreboard players reset @s slim_checker.leave_game
